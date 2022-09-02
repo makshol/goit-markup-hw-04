@@ -93,6 +93,8 @@ address {
     margin-bottom: 50px;
   }
 
+
+
   .section {
 padding-top: 94px;
 padding-bottom: 94px;
@@ -355,7 +357,7 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .team-wrapper {
-    padding: 30px 0;
+    padding-top: 30px;
 }
 
 .team-text {
@@ -381,9 +383,11 @@ justify-content: center;
   justify-content: center;
   border-radius: 50%;
   text-decoration: none;
+  color: #afb1b8;
+  ;
 }
 
-.social-network-link:hover
+.social-network-link:hover,
 .social-network-link:focus {
   color: var(--hero-text-color);
   background-color: var(--nav-text-color);
@@ -391,6 +395,36 @@ justify-content: center;
 
 .social-icon {
   fill: currentColor;
+}
+
+/*Client companies*/
+
+.clients-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #AFB1B8;
+border-radius: 4px;
+color: #AFB1B8;
+}
+
+.clients-icon {
+  fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border-color:var(--nav-text-color) ;
+  color: var(--nav-text-color);
 }
 
 .portfolio-title {
@@ -405,6 +439,8 @@ justify-content: center;
   line-height: 1.88;
   color: var(--undertitle-text-color);
 }
+
+
 
 /* footer */
 .footer {
