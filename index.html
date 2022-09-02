@@ -37,10 +37,18 @@
         </nav>
         <ul class="contact-list list">
           <li class="contact-item">
-            <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-link link" href="mailto:info@devstudio.com"
+              ><svg class="mail-icon" width="16px" height="12px">
+                <use href="./images/icons.svg#mail"></use></svg
+              >info@devstudio.com</a
+            >
           </li>
           <li class="contact-item">
-            <a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="contact-link link" href="tel:+380961111111"
+              ><svg class="tel-icon" width="16px" height="12px">
+                <use href="./images/icons.svg#tel"></use></svg
+              >+38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -59,24 +67,39 @@
           <h2 class="visually-hidden">Advantages</h2>
           <ul class="advantages-list list">
             <li class="advantages-item">
+              <div class="underhero-icon">
+                <svg width="65px" height="70px"><use href="./images/icons.svg#antenna"></use></svg>
+              </div>
               <h3 class="advantages-title">УВАГА ДО ДЕТАЛЕЙ</h3>
               <p class="advantages-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
             <li class="advantages-item">
+              <div class="underhero-icon">
+                <svg width="65px" height="70px"><use href="./images/icons.svg#clock"></use></svg>
+              </div>
               <h3 class="advantages-title">ПУНКТУАЛЬНІСТЬ</h3>
               <p class="advantages-text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
             <li class="advantages-item">
+              <div class="underhero-icon">
+                <svg width="65px" height="70px"><use href="./images/icons.svg#diagram"></use></svg>
+              </div>
               <h3 class="advantages-title">ПЛАНУВАННЯ</h3>
               <p class="advantages-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
             <li class="advantages-item">
+              <div class="underhero-icon">
+                <svg width="65px" height="70px">
+                  <use href="./images/icons.svg#astronaut"></use>
+                </svg>
+              </div>
+
               <h3 class="advantages-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
               <p class="advantages-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
@@ -106,36 +129,82 @@
       <section class="team section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-        <ul class="team-list list">
-          <li class="team-item">
-            <img src="./images/team/team-1.jpg" alt="designer" width="270" height="260" />
-            <div class="team-wrapper">
-              <h3 class="team-name">Ігор Дем'яненко</h3>
-            <p class="team-text">Product Designer</p>
-            </div>
-          </li>
-          <li class="team-item">
-            <img src="./images/team/team-2.jpg" alt="developer" width="270" height="260" />
-            <div class="team-wrapper">
-              <h3 class="team-name">Ольга Рєпіна</h3>
-            <p class="team-text">Frontend Developer</p>
-            </div>
-          </li>
-          <li class="team-item">
-            <img src="./images/team/team-3.jpg" alt="marketologist" width="270" height="260" />
-            <div class="team-wrapper">
-              <h3 class="team-name">Микола Тарасов</h3>
-            <p class="team-text">Marketing</p>
-            </div>
-          </li>
-          <li class="team-item">
-            <img src="./images/team/team-4.jpg" alt="ui designer" width="270" height="260" />
-           <div class="team-wrapper">
-             <h3 class="team-name">Микола Тарасов</h3>
-            <p class="team-text">UI Designerg</p>
-           </div>
-          </li>
-        </ul>
+          <ul class="team-list list">
+            <li class="team-item">
+              <img src="./images/team/team-1.jpg" alt="designer" width="270" height="260" />
+              <div class="team-wrapper">
+                <h3 class="team-name">Ігор Дем'яненко</h3>
+                <p class="team-text">Product Designer</p>
+                <ul class="social-network-list list">
+                  <li class="social-network-items">
+                    <a
+                      class="social-network-link"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="instagram"
+                      ><svg class="social-icon" width="20px" height="20px">
+                        <use href="./images/icons.svg#instagram"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-network-items">
+                    <a
+                      class="social-network-link"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="twitter"
+                      ><svg width="20px" height="20px">
+                        <use href="./images/icons.svg#twitter"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-network-items">
+                    <a
+                      class="social-network-link"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="facebook"
+                      ><svg width="20px" height="20px">
+                        <use href="./images/icons.svg#facebook"></use></svg
+                    ></a>
+                  </li>
+                  <li class="social-network-items">
+                    <a
+                      class="social-network-link"
+                      href=""
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label="linkedin"
+                      ><svg width="20px" height="20px">
+                        <use href="./images/icons.svg#linkedin"></use></svg
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="team-item">
+              <img src="./images/team/team-2.jpg" alt="developer" width="270" height="260" />
+              <div class="team-wrapper">
+                <h3 class="team-name">Ольга Рєпіна</h3>
+                <p class="team-text">Frontend Developer</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img src="./images/team/team-3.jpg" alt="marketologist" width="270" height="260" />
+              <div class="team-wrapper">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-text">Marketing</p>
+              </div>
+            </li>
+            <li class="team-item">
+              <img src="./images/team/team-4.jpg" alt="ui designer" width="270" height="260" />
+              <div class="team-wrapper">
+                <h3 class="team-name">Микола Тарасов</h3>
+                <p class="team-text">UI Designerg</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
@@ -143,13 +212,19 @@
     <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo">Web<span class="studio-footer">Studio</span></a>
-      <address class="address">
-        <ul class="address-list list">
-          <li class="address-item"><a class="maps" href="">м. Київ, пр-т Лесі Українки, 26</a></li>
-          <li class="address-item"><a class="mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li class="address-item"><a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="address-item">
+              <a class="maps" href="">м. Київ, пр-т Лесі Українки, 26</a>
+            </li>
+            <li class="address-item">
+              <a class="mail-footer" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="address-item">
+              <a class="tel-footer" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>

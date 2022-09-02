@@ -153,12 +153,35 @@ align-items: center;
 .contact-link:focus {
   color: var(--nav-text-color);
 }
+.mail-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.tel-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.underhero-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-backgroundcolor);
+  min-height: 120px;
+  margin-bottom: 30px;
+}
+
+
+
 .contact-link {
   color: var(--undertitle-text-color);
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+ display: flex;
+ align-items: center;
 }
 
 .contact-list {
@@ -179,6 +202,7 @@ align-items: center;
  background-size: cover;
  background-position: center;
  width: 1600px;
+ height: 600px;
  margin-left: auto;
  margin-right: auto;
  
@@ -279,6 +303,16 @@ gap: 30px;
 .advantages-item {
     width: calc((100% - 90px) / 4);
 }
+
+.antenna {
+  margin-bottom: 30px;
+  background-color: var(--secondary-backgroundcolor);
+  border-radius: 4px;
+  width: 65px;
+  height: 70px;
+}
+
+
 .advantages-text {
   color: var(--undertitle-text-color);
   line-height: 1.71;
@@ -329,7 +363,36 @@ border-radius: 0px 0px 4px 4px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  padding-bottom: 16px;
 }
+
+.social-network-list {
+display: flex;
+gap: 10px;
+margin-bottom: 30px;
+justify-content: center;
+}
+
+.social-network-link {
+  width: 44px;
+  height: 44px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  text-decoration: none;
+}
+
+.social-network-link:hover
+.social-network-link:focus {
+  color: var(--hero-text-color);
+  background-color: var(--nav-text-color);
+}
+
+.social-icon {
+  fill: currentColor;
+}
+
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
