@@ -10,6 +10,8 @@
   --hero-text-color: #ffffff;
   --hero-background-color: #2f303a;
   --picture-background-color: #eeeeee;
+  --hero-overlay-color: rgba(47, 48, 58, 0.4);
+  --hero-background-color: #C4C4C4;
 }
 body {
   background-color: var(--primary-backgroundcolor);
@@ -167,10 +169,19 @@ align-items: center;
 
 /* Main */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--hero-background-color);
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background-image: linear-gradient(to right, var(--hero-overlay-color), var(--hero-overlay-color)),
+  url(/images/background-hero.jpg);
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ width: 1600px;
+ margin-left: auto;
+ margin-right: auto;
+ 
 }
 .hero-title {
     width: 696px;
