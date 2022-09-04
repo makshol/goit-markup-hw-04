@@ -12,6 +12,7 @@
   --picture-background-color: #eeeeee;
   --hero-overlay-color: rgba(47, 48, 58, 0.4);
   --hero-background-color: #C4C4C4;
+  --footer-color: #2F303A;  
 }
 body {
   background-color: var(--primary-backgroundcolor);
@@ -444,8 +445,11 @@ color: #AFB1B8;
 
 /* footer */
 .footer {
-  background-color: var(--hero-background-color);
+  background-color: var(--footer-color);
   padding: 60px 0;
+  width: 1600px;
+ height: 252px;
+ margin: 0 auto;
 }
 
 .footer .logo {
