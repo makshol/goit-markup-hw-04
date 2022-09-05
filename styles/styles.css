@@ -195,7 +195,7 @@ address {
   padding-bottom: 200px;
   text-align: center;
   background-image: linear-gradient(to right, var(--hero-overlay-color), var(--hero-overlay-color)),
-    url(/images/background-hero.jpg);
+    url(../images/background-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -370,13 +370,13 @@ address {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 
 .social-network-list {
   display: flex;
   gap: 10px;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
   justify-content: center;
 }
 
